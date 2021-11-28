@@ -6,7 +6,7 @@ import com.greatlearning.model.Employee;
 public class CredentialService {
 	public char[] generatePassword()
 	{
-		String upperCase= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            String upperCase= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	    String lowerCase= "abcdefghijklmnopqrstuvwxyz";
 	    String specialChar= "!@#$";
 	    String digits = "1234567890";
