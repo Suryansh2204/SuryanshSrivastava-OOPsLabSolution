@@ -12,8 +12,8 @@ public class CredentialService {
 	    String digits = "1234567890";
 	    String comboVal=upperCase+lowerCase+specialChar+digits;
 	    Random random = new Random();
-        char[] password = new char[8];
-        password[0] = lowerCase.charAt(random.nextInt(lowerCase.length()));
+	    char[] password = new char[8];
+	    password[0] = lowerCase.charAt(random.nextInt(lowerCase.length()));
 	    password[1] = upperCase.charAt(random.nextInt(upperCase.length()));
 	    password[2] = specialChar.charAt(random.nextInt(specialChar.length()));
 	    password[3] = digits.charAt(random.nextInt(digits.length())); 
