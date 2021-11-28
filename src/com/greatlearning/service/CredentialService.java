@@ -31,9 +31,9 @@ public class CredentialService {
 	public void showCredentials(Employee employee,String email, char pass[])
 	{
 		System.out.println(employee.getFirstName()+" your generated credentials are as follows:");
-		System.out.println("Email    ---> "+email);
+		System.out.println("Email     ---> "+email);
 		StringBuilder stringBuilder = new StringBuilder();
-		stringBuilder.append("Password ---> ");
+		stringBuilder.append("Password  ---> ");
 		stringBuilder.append(pass);
 		System.out.println(stringBuilder.toString());
 	}
